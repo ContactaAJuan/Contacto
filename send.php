@@ -1,9 +1,9 @@
 <?php 
 $destino = "pg8872898@gmail.com";
 
-$nombre = $_REQUEST['nombre'];
-$correo = $_REQUEST['correo'];
-$telefono = $_REQUEST['telefono'];
+$nombre = $_POST['nombre'];
+$correo = $_POST['correo'];
+$telefono = $_POST['telefono'];
 
 $asunto = "Contacto Web";
 
